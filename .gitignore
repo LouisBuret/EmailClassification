@@ -1,2 +1,2 @@
-email_origin.csv
-email_text.csv
+*.csv
+*.keras
