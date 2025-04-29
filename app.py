@@ -74,7 +74,7 @@ model = load_model("99254.keras", )
 
 def email_classifier(mail : str) -> str:
     data = preprocess(mail)
-    return 'safe' if model.predict(data) < 0.5 else 'not safe'
+    return 'Safe' if model.predict(data) < 0.5 else 'NOT Safe'
 
 
 
